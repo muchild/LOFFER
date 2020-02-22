@@ -2,15 +2,13 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 	<script>
-		let arguments = {
-			'page': '{{ site.baseurl }}{{ page.url }}',
-		  	'title': '{{ page.title | replace: "'", "\\'" }}'
-		};
  		window.dataLayer = window.dataLayer || [];
   		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
-
   		gtag('config', '{{site.google_analytics}}');
+
+  		gtag('page', '{{ site.baseurl }}{{ page.url }}');
+  		gtag('config', '{{ page.title | replace: "'", "\\'" }}');
 	</script>
 	<!-- End Google Analytics -->
 {% endif %}
