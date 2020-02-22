@@ -61,14 +61,14 @@ footer-text: Copyright (c) 2020
 # 评论，注意，请不要同时添加多种不同的评论区
 
 # 输入Disqus shortname，即可添加评论区
-disqus: https-muchild-github-io-loffer #shortname
+disqus:  #shortname
 
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
+  clientID: fc28db80e56b3cec6f73
+  clientSecret: beebf45b8d9c968c06dab1095c52a6d548ded709
+  repo: muchild/LOFFER
+  owner: muchild
 
 # 输入Google Analytics web tracking code
 google_analytics:
