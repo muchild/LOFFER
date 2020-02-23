@@ -8,7 +8,7 @@
   		gtag('config', '{{site.google_analytics}}');
 
   		gtag('page', '{{ site.baseurl }}{{ page.url }}');
-  		gtag('config', '{{ page.title | replace: "'", "\\'" }}');
+  		gtag('title', '{{ page.title | replace: "'", "\\'" }}');
 	</script>
 	<!-- End Google Analytics -->
 {% endif %}
