@@ -9,6 +9,7 @@ toc: true
 pinned: true
 ---
 
+> 只说一个小点，谁让每次查日志都感到无力
 
 #### 一、先说一个事
 
@@ -87,7 +88,7 @@ pinned: true
 > .  #匹配一个非换行符的字符 如：'gr.p'匹配gr后接一个任意字符，然后是p。    
 > *  #匹配零个或多个先前字符 如：'*grep'匹配所有一个或多个空格后紧跟grep的行。    
 > .*   #一起用代表任意字符。   
-> <strong>[]   #匹配一个指定范围内的字符，如'[Gg]rep'匹配Grep和grep。</strong>   
+> []   #匹配一个指定范围内的字符，如'[Gg]rep'匹配Grep和grep。 
 > [^]  #匹配一个不在指定范围内的字符，如：'[^A-FH-Z]rep'匹配不包含A-R和T-Z的一个字母开头，紧跟rep的行。    
 > \(..\)  #标记匹配字符，如'\(love\)'，love被标记为1。    
 > \<      #锚定单词的开始，如:'\<grep'匹配包含以grep开头的单词的行。    
@@ -98,7 +99,7 @@ pinned: true
 > \w    #匹配文字和数字字符，也就是[A-Za-z0-9]，如：'G\w*p'匹配以G后跟零个或多个文字或数字字符，然后是p。   
 > \W    #\w的反置形式，匹配一个或多个非单词字符，如点号句号等。   
 > \b    #单词锁定符，如: '\bgrep\b'只匹配grep。  
-> <strong>POSIX字符:</strong>
+> POSIX字符:
 > 为了在不同国家的字符编码中保持一至，POSIX(The Portable Operating System Interface)增加了特殊的字符类，如[:alnum:]是[A-Za-z0-9]的另一个写法。要把它们放到[]号内才能成为正则表达式，如[A- Za-z0-9]或[[:alnum:]]。在linux下的grep除fgrep外，都支持POSIX的字符类。
 > [:alnum:]    #文字数字字符   
 > [:alpha:]    #文字字符   
