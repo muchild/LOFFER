@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gre使用时的一个注意点
+title: grep 'user [x]'
 date: 2020-04-29
 author: 七禾叶
 tags: [linux]
@@ -120,7 +120,7 @@ pinned: true
 > [:xdigit:]   #十六进制数字（0-9，a-f，A-F）  
 > ```
 >
-> 由上述可以看到，1、grep支持正则  2、POSIX字符，在标题一粒，其实是因为'['和']'是posix字符的关键字，导致了无法搜索到内容，办法：要么就是转义，要么就按照规则去匹配，下面举几个例子吧：
+> 由上述可以看到，1、grep支持正则  2、POSIX字符，在标题一里，其实是因为'['和']'是posix字符的关键字，导致了无法搜索到内容，办法：要么就是转义，要么就按照规则去匹配，下面举几个例子吧：
 >
 > ```bash
 > Desktop grep 'user\ [[]' log.log # 只匹配到了user [
