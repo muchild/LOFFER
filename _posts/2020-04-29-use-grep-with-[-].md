@@ -145,9 +145,3 @@ pinned: true
 > ```
 >
 > [链接地址](https://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap09.html#tag_09_03_05)
-
-
-
-
-
-#### 
