@@ -55,7 +55,6 @@ pinned: true
 > 这样，运行jekyll项目的时候，就可以直接默认浏览器打开调试啦。。
 
 #### 三、备注
-> 最后写一下备注：
 > ```markdown
 > $ jekyll serve
 > # => 一个开发服务器将会运行在 http://localhost:4000/
