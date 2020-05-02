@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用webstorm调试jeklly项目
+title: 使用webstorm调试jekyll项目
 date: 2020-05-02 17-09-08
 author: 七禾叶
 tags: [blog]
