@@ -62,9 +62,8 @@ pinned: true
 > $ jekyll serve --detach
 > # => 功能和`jekyll serve`命令相同，但是会脱离终端在后台运行。
 > #    如果你想关闭服务器，可以使用`kill -9 1234`命令，"1234" 是进程号（PID）。
-> #    如果你找不到进程号，那么就用`ps aux | grep jekyll`命令来查看，然后关闭服务器。[更多](http://unixhelp.ed.ac.uk/shell/jobz5.html).
-知道默认行为
-```
+> #    如果你找不到进程号，那么就用`ps aux | grep jekyll`命令来查看，然后关闭服务器
+>
 > 相关文章：https://jekyllcn.com/docs/usage
 >```
 
