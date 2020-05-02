@@ -121,3 +121,6 @@ exclude:
   - README.md
   - CNAME
 
+footer-links-friends:
+  - name: Tjj
+    url: https://tjj006.github.io/

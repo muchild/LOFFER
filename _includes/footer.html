@@ -1,4 +1,8 @@
 {% include svg-icons.html %}
+{% for friend in site.footer-links-friends %}
+<p class="gt-copyright">友情链接：<a href="{{friend.url}}" title="{{friend.name}}">
+    {{friend.name}}</a></p>
+{% endfor %}
 
 {% if site.footer-text %}
 <p>{{ site.footer-text }}</p>
