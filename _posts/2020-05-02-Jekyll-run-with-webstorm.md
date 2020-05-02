@@ -77,6 +77,7 @@ pinned: true
 > if [[ -n $x ]];
 > then
 >   kill -9 $x;
+>   echo "OK";
 > fi
 ```
 
