@@ -35,13 +35,18 @@ pinned: true
 > 1、gem install -n /usr/local/bin jekyll jekyll-sitemap jekyll-feed jekyll-paginate
 > 2、配置webstorm configuration
 >   A、Edit configuration
->   B、选择 + Bash(name: jekyll) 
+>   B、选择 + Bash(name: kill) 
+>         a、script: /bin/sh script.sh
+>         b、interpreter path: /bin/sh
+>         c、interpreter options: script.sh
+>   C、选择 + Bash(name: jekyll) 
 >         a、script: /usr/local/bin/jekyll serve --detach
 >         b、interpreter path: /usr/local/bin/jekyll
 >         c、interpreter options: serve --detach
->   C、选择 + attach to Node.js/Chrome (name: jelly post to chrome) 
->         a、Before Launch -> Run Another Configuration -> Bash -> jekyll
->         b、Before Launch -> Run Another Configuration -> Launch Web Browser -> 输入需要打开的调试地址
+>   D、选择 + attach to Node.js/Chrome (name: jelly post to chrome) 
+>         a、Before Launch -> Run Another Configuration -> Bash -> kill
+>         b、Before Launch -> Run Another Configuration -> Bash -> jekyll
+>         c、Before Launch -> Run Another Configuration -> Launch Web Browser -> 输入需要打开的调试地址
 >   D、保存
 > 3、debug
 >   ```
