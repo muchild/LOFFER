@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用webstorm调试jekyll项目
+title: 使用webstorm预览jekyll项目
 date: 2020-05-02 17-09-08
 author: 七禾叶
 tags: [blog]
@@ -30,7 +30,7 @@ pinned: true
 > ```
 
 
-#### 二、配置webtorm可debug
+#### 二、配置webtorm可预览
 >```markdown 
 > 1、gem install -n /usr/local/bin jekyll jekyll-sitemap jekyll-feed jekyll-paginate
 > 2、配置webstorm configuration
