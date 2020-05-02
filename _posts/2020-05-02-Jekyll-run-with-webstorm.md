@@ -39,15 +39,10 @@ pinned: true
 >         a、script: /bin/sh script.sh
 >         b、interpreter path: /bin/sh
 >         c、interpreter options: script.sh
->   C、选择 + Bash(name: jekyll) 
->         a、script: /usr/local/bin/jekyll serve --detach
->         b、interpreter path: /usr/local/bin/jekyll
->         c、interpreter options: serve --detach
->   D、选择 + attach to Node.js/Chrome (name: jelly post to chrome) 
->         a、Before Launch -> Run Another Configuration -> Bash -> kill
->         b、Before Launch -> Run Another Configuration -> Bash -> jekyll
->         c、Before Launch -> Run Another Configuration -> Launch Web Browser -> 输入需要打开的调试地址
+>   C、选择 + JavaScript Debug (name: js) 
+>         a、Before Launch -> Run Another Configuration -> Bash -> jekyll
 >   D、保存
+>   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧
 > 3、debug
 >   ```
 
@@ -78,6 +73,8 @@ pinned: true
 > then
 >   kill -9 $x;
 >   echo "OK";
+>   /usr/local/bin/jekyll serve --detach --trace --incremental
+>   echo "RUN OK"
 > fi
 ```
 
