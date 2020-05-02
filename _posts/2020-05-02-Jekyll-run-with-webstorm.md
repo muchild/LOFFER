@@ -34,7 +34,7 @@ pinned: true
 >```markdown 
 > 1、gem install -n /usr/local/bin jekyll jekyll-sitemap jekyll-feed jekyll-paginate
 > 2、配置webstorm configuration
->   A、Edit configuration
+>   A、Edit configuration (需要提前安装Bash Script插件哈)
 >   B、选择 + Bash(name: kill) 
 >         a、script: /bin/sh script.sh
 >         b、interpreter path: /bin/sh
