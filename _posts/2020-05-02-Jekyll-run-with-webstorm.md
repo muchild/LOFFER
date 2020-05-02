@@ -30,7 +30,7 @@ pinned: true
 > ```
 
 
-#### 二、配置webtorm可预览
+#### 二、配置webstorm可预览
 >```markdown 
 > 1、gem install -n /usr/local/bin jekyll jekyll-sitemap jekyll-feed jekyll-paginate
 > 2、配置webstorm configuration
