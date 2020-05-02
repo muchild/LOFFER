@@ -66,3 +66,16 @@ pinned: true
 > 相关文章：https://jekyllcn.com/docs/usage
 >```
 
+> script.sh
+> ```bash
+>#!/usr/bin/env bash
+> 
+> x=`lsof -i tcp:4000 -t| awk '{print $1}'| awk -F ' ' '{print $1}'`
+> echo $x
+> 
+> if [[ -n $x ]];
+> then
+>   kill -9 $x;
+> fi
+```
+

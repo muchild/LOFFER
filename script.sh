@@ -1,4 +1,5 @@
-# /bin/bash
+#!/usr/bin/env bash
+
 x=`lsof -i tcp:4000 -t| awk '{print $1}'| awk -F ' ' '{print $1}'`
 echo $x
 
