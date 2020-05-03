@@ -39,10 +39,11 @@ pinned: true
 >         a、script: /bin/sh script.sh
 >         b、interpreter path: /bin/sh
 >         c、interpreter options: script.sh
->   C、选择 + JavaScript Debug (name: js) 
+>   C、选择 + attach to Node.js/Chrome (name: attach) 
 >         a、Before Launch -> Run Another Configuration -> Bash -> jekyll
+>         b、Launch Web Broswer -> url: 目标地址  ==> 每次运行后都会重新打开一个新页面，记得新文章地址要改，实在搞不定热更新，只好先这样了
 >   D、保存
->   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧
+>   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧(我自己配置没啥用，就还是新打开一个页面吧)
 > 3、debug
 >   ```
 
@@ -76,5 +77,7 @@ pinned: true
 >   /usr/local/bin/jekyll serve --detach --trace --incremental
 >   echo "RUN OK"
 > fi
-```
+> ```
+
+> 相关文章：[使用Webstorm编写Jekyll](https://emous.github.io/2019/04/06/UseWebstormToWriteJekyll/)
 
