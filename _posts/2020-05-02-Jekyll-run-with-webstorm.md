@@ -39,15 +39,15 @@ pinned: true
 >         a、script: /bin/sh script.sh
 >         b、interpreter path: /bin/sh
 >         c、interpreter options: script.sh
->   C、选择 + attach to Node.js/Chrome (name: attach) 
+>   C、选择 + JavaScript Debug (name: attach) 
 >         a、Before Launch -> Run Another Configuration -> Bash -> jekyll
->         b、Launch Web Broswer -> url: 目标地址  ==> 每次运行后都会重新打开一个新页面，记得新文章地址要改，实在搞不定热更新，只好先这样了
+>         b、URL -> 目标地址
 >   D、保存
->   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧(我自己配置没啥用，就还是新打开一个页面吧)
-> 3、debug
+>   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧
+> 3、debug or rerun
 >   ```
 
-> **这样，运行jekyll项目的时候，就可以直接默认浏览器打开预览啦。。**
+> **这样，运行jekyll项目的时候，就可以直接默认浏览器打开预览啦。。而且是同一个页面内刷新**
 
 #### 三、备注
 > ```markdown
