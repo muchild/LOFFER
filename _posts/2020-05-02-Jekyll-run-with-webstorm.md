@@ -28,6 +28,8 @@ pinned: false
 > pinned: false
 > ---
 > ```
+![模板内容](https://i.loli.net/2020/05/05/JAEhdSpjyxUt2f6.png)
+
 
 
 #### 二、配置webstorm可预览
@@ -46,6 +48,10 @@ pinned: false
 >   E、WebStorm如何即时显示更改内容和热更新(https://zhangjia.io/574.html)  ==> 按照这边配置吧
 > 3、debug or rerun
 >   ```
+
+![步骤B](https://i.loli.net/2020/05/05/p81gXFkwEqxujb9.png)
+![步骤C](https://i.loli.net/2020/05/05/23qa5pvYFIH17bt.png)
+
 
 > **这样，运行jekyll项目的时候，就可以直接默认浏览器打开预览啦。。而且是同一个页面内刷新**
 
