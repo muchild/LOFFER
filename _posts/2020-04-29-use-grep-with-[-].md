@@ -5,8 +5,8 @@ date: 2020-04-29
 author: 七禾叶
 tags: [linux]
 comments: true
-toc: true
-pinned: true
+toc: false
+pinned: false
 ---
 
 > 只说一个小点

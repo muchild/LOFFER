@@ -5,8 +5,8 @@ date: 2020-05-03 16-06-22
 author: 七禾叶
 tags: [java]
 comments: true
-toc: true
-pinned: true
+toc: false
+pinned: false
 ---
 
 > 改了下blog的名字就想着连logo一起改了，就网上抄了代码。。抄是之前就抄了。。忘记记录出处了，见谅。。

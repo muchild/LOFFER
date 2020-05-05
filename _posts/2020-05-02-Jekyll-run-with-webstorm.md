@@ -24,8 +24,8 @@ pinned: true
 > author: 七禾叶
 > tags: [$tags]
 > comments: true
-> toc: true
-> pinned: true
+> toc: false
+> pinned: false
 > ---
 > ```
 
