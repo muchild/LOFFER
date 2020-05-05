@@ -5,8 +5,8 @@ date: 2020-05-02 17-09-08
 author: 七禾叶
 tags: [blog]
 comments: true
-toc: true
-pinned: true
+toc: false
+pinned: false
 ---
 
 
