@@ -14,8 +14,10 @@ pinned: false
 
 
 >![CDt1vPl9xFzfO5E](https://i.loli.net/2020/05/13/CDt1vPl9xFzfO5E.png)
-> 
->获取3之前的所有行(从1开始计数)：get-content log.txt | where {$_.readcount -lt 3}
+>
+>```markdown
+> 获取3之前的所有行(从1开始计数)：get-content log.txt | where {$_.readcount -lt 3}
 > 获取3之后的所有行(从1开始计数)：get-content log.txt | where {$_.readcount -gt 3}
 > 获取被4整数的行数(从1开始计数)：get-content log.txt | where {$_.readcount% 4 -eq 0}
 > 获取index为(2,4)之间的数(从0开始计数)：Get-Content log.txt | Select-Object -Index (2..4)
+> ```
