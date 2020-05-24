@@ -18,7 +18,7 @@ pinned: false
 >  import java.util.Map;
 >  
 >  /**
->   * @author wb730364
+>   * @author guoying
 >   * @date 2020/5/20
 >   */
 >  public class CheckDiffList {
