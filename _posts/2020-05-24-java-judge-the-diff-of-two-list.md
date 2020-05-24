@@ -46,6 +46,9 @@ pinned: false
 >              if (cc != null) {
 >                  map.put(string, ++cc);
 >                  continue;
+>              }else{
+>                  flag = false;
+>                  break;
 >              }
 >          }
 >  
