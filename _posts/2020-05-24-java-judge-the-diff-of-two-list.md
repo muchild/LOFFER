@@ -45,10 +45,6 @@ pinned: false
 >              Integer cc = map.get(string);
 >              if (cc != null) {
 >                  map.put(string, ++cc);
->                  continue;
->              }else{
->                  flag = false;
->                  break;
 >              }
 >          }
 >  
