@@ -143,11 +143,17 @@ pinned: false
 > **结果：**
 > 
 > in around before execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+> 
 > before execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+> 
 > in hello
+> 
 > after execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+> 
 > in around after execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+> 
 > in around before execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+> 
 > in around after execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
 >
 > 结论：proceed()没有被调用时，不调用before/after
