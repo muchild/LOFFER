@@ -3,7 +3,7 @@ layout: post
 title: 学习 Spring AOP
 date: 2020-08-23 12:56:29
 author: 七禾叶
-tags: [java,spring]
+tags: [java]
 comments: true
 toc: false
 pinned: false

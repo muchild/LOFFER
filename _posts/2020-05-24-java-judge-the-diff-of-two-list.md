@@ -3,7 +3,7 @@ layout: post
 title: java判断两个List是否相同
 date: 2020-05-24 20:03:32
 author: 七禾叶
-tags: [Java]
+tags: [java]
 comments: true
 toc: false
 pinned: false
