@@ -149,6 +149,8 @@ pinned: false
 > in around after execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
 > in around before execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
 > in around after execution(void com.example.demo.service.impl.UserServiceImpl.getWork())
+>
+> 结论：proceed()没有被调用时，不调用before/after
 
 > 相关文章：
 > https://www.jianshu.com/p/994027425b44
