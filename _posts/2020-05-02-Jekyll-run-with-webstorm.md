@@ -71,18 +71,21 @@ pinned: false
 
 > script.sh
 > ```bash
->#!/usr/bin/env bash
+> #!/usr/bin/env bash
 > 
-> x=`lsof -i tcp:4000 -t| awk '{print $1}'`
+> x=$(lsof -i tcp:4000 -t | awk '{print $1}')
 > echo $x
 > 
-> if [[ -n $x ]];
-> then
->   kill -9 $x;
->   echo "OK";
->   /usr/local/bin/jekyll serve --detach --trace --incremental
->   echo "RUN OK"
+> if [[ -n $x ]]; then
+>   kill -9 $x
+>   echo "OK"
 > fi
+> 
+> nohup /usr/local/bin/jekyll serve --detach --trace --incremental >/Users/guoying/logs/jekll 2>&1 &
+> echo "run ok"
+> 
+> open http://127.0.0.1:4000/loffer/
+> echo "open url ok"
 > ```
 
 > 相关文章：[使用Webstorm编写Jekyll](https://emous.github.io/2019/04/06/UseWebstormToWriteJekyll/)
