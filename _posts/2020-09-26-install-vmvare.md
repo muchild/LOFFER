@@ -16,7 +16,7 @@ pinned: false
 > 本来我是打算去下载破解版的。。结果官网有个人免费版，那就下这个吧
 > 
 >注册&&下载地址：https://my.vmware.com/group/vmware/evalcenter?p=fusion-player-personal
-> 
+
 ### 二、安装VMware
 > 安装完打开VMware且配置了虚拟机后，启动虚拟机提示：请确保已载入内核模块 'vmmon'
 > 
