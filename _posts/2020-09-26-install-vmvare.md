@@ -14,9 +14,12 @@ pinned: false
 
 ### 一、下载VMware
 > 本来我是打算去下载破解版的。。结果官网有个人免费版，那就下这个吧
-> 注册&&下载地址：https://my.vmware.com/group/vmware/evalcenter?p=fusion-player-personal
+> 
+>注册&&下载地址：https://my.vmware.com/group/vmware/evalcenter?p=fusion-player-personal
 > 
 ### 二、安装VMware
 > 安装完打开VMware且配置了虚拟机后，启动虚拟机提示：请确保已载入内核模块 'vmmon'
+> 
 > 百度了下，说安全与隐私下打开：**任何来源**(sudo spctl --master-disable)就好。。可是我都打开了呀为啥还是不行。。
+>
 > 这个时候就要说了，所有文章都说只要打开任何设置，可是他们没说还得**重启VMware**啊。。搞我半天，晕倒了
