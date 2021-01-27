@@ -3,7 +3,6 @@ layout: post title: 2021-01-28 安装启动MeterPhere测试平台 date: 2021-01-
 comments: true toc: false pinned: false
 ---
 
-
 > 在testerhome上看到开源测试平台MeterSphere，感觉蛮好的就想安装一把。。顺道推荐给我领导。。
 > 哎，自己的安装过程真的是心塞。。各种不仔细引发的安装不成功。。
 
