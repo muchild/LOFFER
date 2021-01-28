@@ -21,6 +21,7 @@ pinned: false
 ### 二、修改配置
 
 > 1、如果/opt目录下还没有生成metershpere文件夹(也就是还没有/bin/sh install.sh)，这样直接修改好/metersphere-release-v1.7.0-rc1/install.conf就好
+> 
 > 本人使用的是外部mysql和外部kafka，配置如下
 > ![image.png](https://i.loli.net/2021/01/28/kRemgQ4SD5UVoMb.png)
 > 再按照官网说的/bin/sh install.sh 就好
@@ -28,20 +29,24 @@ pinned: false
 
 
 > 2、如果/opt目录下已经有生成metershpere文件夹
+> 
 > 那就需要修改/opt/metersphere/.env文件了。。
 > 配置如上图，或者把/opt/metersphere整个删除后，修改了install.conf后，直接/bin/sh install.sh也行(**离线升级，貌似也可以这样操作,配置文件记得保持一致**)
 
 > 3、如果是阿里云服务器，记得安全组规格把端口访问权限打开
 
 > 4、kafka安装时都需要注意的
+> 
 > 因为MeterSphere是装在docker里的，所以外部kafka需要配置外部访问方式
 > 配置如下：
 > ![image.png](https://i.loli.net/2021/01/28/YQA72EczSes9Tdi.png)
 
 > 5、一直操作
+> 
 > 修改配置文件后，记得msctl reload，然后msctl restart一下
 
 > 6、关于log
+> 
 > tail -f /opt/metersphere/logs/metersphere/info.log 看服务是否正常启动了
 > docker ps 查询到 ms-data-streaming 的容器Id，sudo docker attach 容器Id，看下kafka是否正常连接了
 
