@@ -33,7 +33,7 @@ pinned: false
 > 2、如果/opt目录下已经有生成metershpere文件夹
 > 
 > 那就需要修改/opt/metersphere/.env文件了。。
-> 配置如上图，或者把/opt/metersphere整个删除后，修改了install.conf后，直接/bin/sh install.sh也行(**离线升级，貌似也可以这样操作,配置文件记得保持一致**)
+> 配置如上图，或者把/opt/metersphere整个删除后，修改了install.conf后，直接/bin/sh install.sh也行
 
 > 3、如果是阿里云服务器，记得安全组规格把端口访问权限打开
 
