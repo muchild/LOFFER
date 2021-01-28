@@ -11,11 +11,13 @@ pinned: false
 
 
 > 在testerhome上看到开源测试平台MeterSphere，感觉蛮好的就想安装一把。。顺道推荐给我领导。。
+> 
 > 哎，自己的安装过程真的是心塞。。各种不仔细引发的安装不成功。。
 
 ### 一、介绍吧
 
 > 官网文档地址：[MeterSphere](https://metersphere.io/docs/)
+> 
 > 其他就直接看官网吧，很直观了，我用的离线安装的方式
 
 ### 二、修改配置
