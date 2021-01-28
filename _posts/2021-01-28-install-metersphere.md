@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 安装启动MeterPhere测试平台
+title: 安装启动MeterSphere测试平台
 date: 2021-01-28 02:40:54
 author: 七禾叶
 tags: [test]
@@ -37,6 +37,13 @@ pinned: false
 > 因为MeterSphere是装在docker里的，所以外部kafka需要配置外部访问方式
 > 配置如下：
 > ![image.png](https://i.loli.net/2021/01/28/YQA72EczSes9Tdi.png)
+
+> 5、一直操作
+> 修改配置文件后，记得msctl reload，然后msctl restart一下
+
+> 6、关于log
+> tail -f /opt/metersphere/logs/metersphere/info.log 看服务是否正常启动了
+> docker ps 查询到 ms-data-streaming 的容器Id，sudo docker attach 容器Id，看下kafka是否正常连接了
 
 ### 三、发发牢骚吧
 
