@@ -29,25 +29,19 @@ pinned: false
 > 再按照官网说的/bin/sh install.sh 就好
 > 访问地址：http://your_ip:8081
 
+> 2、如果是阿里云服务器，记得安全组规格把端口访问权限打开
 
-> 2、如果/opt目录下已经有生成metershpere文件夹
-> 
-> 那就需要修改/opt/metersphere/.env文件了。。
-> 配置如上图，或者把/opt/metersphere整个删除后，修改了install.conf后，直接/bin/sh install.sh也行
-
-> 3、如果是阿里云服务器，记得安全组规格把端口访问权限打开
-
-> 4、kafka安装时都需要注意的
+> 3、kafka安装时都需要注意的
 > 
 > 因为MeterSphere是装在docker里的，所以外部kafka需要配置外部访问方式
 > 配置如下：
 > ![image.png](https://i.loli.net/2021/01/28/YQA72EczSes9Tdi.png)
 
-> 5、一直操作
+> 4、修改配置操作
 > 
 > 修改配置文件后，记得msctl reload，然后msctl restart一下
 
-> 6、关于log
+> 5、关于log
 > 
 > tail -f /opt/metersphere/logs/metersphere/info.log 看服务是否正常启动了
 > docker ps 查询到 ms-data-streaming 的容器Id，sudo docker attach 容器Id，看下kafka是否正常连接了
